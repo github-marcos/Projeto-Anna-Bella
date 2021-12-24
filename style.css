@@ -1,20 +1,26 @@
 @charset "UTF-8";
 
+* { margin: 0 px;
+ padding: 0 px;
+ min-width: 800px;
+}
 
 body {
     background-image: url('imagens/fundo.png');
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 header{
-    margin-left: 18%;
+    text-align: center;
 }
 
 nav{
     background-color: rgb(163, 163, 163);
     padding: 20px 40px;
     width: 820px;
-    margin-top: 0px;
+    margin: 0 auto;
     text-align: right;
     font-style: italic;
 }
@@ -37,7 +43,7 @@ main{
     background-color: white;
     width: 900px;
     text-align: justify;
-    margin-left: 18%;
+    margin: 0 auto;
     border-width: thick;
     border-style: double;
 }
@@ -75,5 +81,5 @@ footer{
     padding: 20px;
     background-color: rgb(163, 163, 163);
     width: 870px;
-    margin-left: 18%;
+    margin: 0 auto;
 }
